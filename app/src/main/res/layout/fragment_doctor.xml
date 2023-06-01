@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="22dp"
+    tools:context=".ProfileFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/doctorName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Dr. John Doe"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/doctorSpecialty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/primary"
+            android:text="Cardiólogo"
+            android:textSize="24sp" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/cardiologia" />
+
+        <Button
+            android:id="@+id/openDialog"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/darkPurple"
+            app:strokeColor="@color/darkPurple"
+            android:layout_gravity="center"
+            android:text="Revisar agenda" />
+        <TextView
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:id="@+id/selectedDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"/>
+
+        <Button
+            android:id="@+id/confirmDate"
+            android:layout_width="186dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/darkPurple"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:text="Confirmar cita" />
+
+    </LinearLayout>
+
+</FrameLayout>

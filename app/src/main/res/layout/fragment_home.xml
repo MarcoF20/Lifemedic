@@ -1,0 +1,102 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="22dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="¿Necesitas atención médica? Busca en nuestras categorías"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="181dp"
+            android:height="56dp"
+            android:backgroundTint="@color/brightGreen"
+            android:text="@string/categoryGeneral"
+            android:textColor="@color/white"
+            app:icon="@drawable/medico"
+            app:iconPadding="0dp"
+            app:iconTint="@null" />
+
+        <Button
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="181dp"
+            android:height="56dp"
+            android:backgroundTint="@color/brightGreen"
+            android:text="@string/categoryPediatrist"
+            android:textColor="@color/white"
+            app:icon="@drawable/pediatra"
+            app:iconPadding="0dp"
+            app:iconTint="@null" />
+
+        <Button
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="181dp"
+            android:height="56dp"
+            android:backgroundTint="@color/brightGreen"
+            android:text="@string/cateogoryNutritionist"
+            android:textColor="@color/white"
+            app:icon="@drawable/nutriologo"
+            app:iconPadding="0dp"
+            app:iconTint="@null" />
+
+        <Button
+            android:id="@+id/cardioButton"
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="181dp"
+            android:height="56dp"
+            android:backgroundTint="@color/brightGreen"
+            android:text="@string/cateogoryCardio"
+            android:textColor="@color/white"
+            app:icon="@drawable/cardiologia"
+            app:iconPadding="0dp"
+            app:iconTint="@null" />
+
+        <Button
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="181dp"
+            android:height="56dp"
+            android:backgroundTint="@color/brightGreen"
+            android:text="@string/categoryPhysio"
+            android:textColor="@color/white"
+            app:icon="@drawable/fisioterapia"
+            app:iconPadding="0dp"
+            app:iconTint="@null" />
+
+        <Button
+
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="181dp"
+            android:height="56dp"
+            android:backgroundTint="@color/brightGreen"
+            android:text="@string/categoryPsycho"
+            android:textColor="@color/white"
+            app:icon="@drawable/psicologia"
+            app:iconPadding="0dp"
+            app:iconTint="@null" />
+
+    </LinearLayout>
+
+</FrameLayout>

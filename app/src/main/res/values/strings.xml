@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PracticaFirebase</string>
+    <string name="loginTitle">Bienvenido a Lifemedic comienza iniciando sesión</string>
+    <string name="email">Correo electronico</string>
+    <string name="password">Contraseña</string>
+    <string name="loginBtnTxt">Iniciar sesión</string>
+    <string name="registerTitle">Únete a la mejor plataforma médica de la región</string>
+    <string name="registerBtnTxt">Registrarse</string>
+    <string name="ya_tienes_cuenta">¿Ya tienes cuenta?</string>
+    <string name="inicia_sesion">Inicia sesión</string>
+    <string name="no_tienes_cuenta">¿No tienes cuenta?</string>
+    <string name="registrate">Regístrate</string>
+    <string name="categoryGeneral">Medicina general</string>
+    <string name="categoryPediatrist">Pediatría</string>
+    <string name="cateogoryNutritionist">Nutrición</string>
+    <string name="cateogoryCardio">Cardiología</string>
+    <string name="categoryPhysio">Fisioterapia</string>
+    <string name="categoryPsycho">Psicología</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
