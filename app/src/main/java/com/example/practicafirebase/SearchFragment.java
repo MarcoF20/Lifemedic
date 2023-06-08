@@ -82,7 +82,7 @@ public class SearchFragment extends Fragment {
         citasRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                if (getContext() != null){
+                if (getContext() != null) {
                     tableLayout.removeAllViews();
                     //agrega los encabezados
                     TableRow tableRowHeader = new TableRow(getContext());
@@ -102,7 +102,6 @@ public class SearchFragment extends Fragment {
                         String nombreMedico = citaSnapshot.child("nombreMedico").getValue(String.class);
                         String especialidad = citaSnapshot.child("especialidad").getValue(String.class);
                         String fecha = citaSnapshot.child("fecha").getValue(String.class);
-
                         // Crear una nueva fila
                         TableRow tableRow = new TableRow(getContext());
 
@@ -123,7 +122,7 @@ public class SearchFragment extends Fragment {
                         tableLayout.addView(tableRow);
                     }
                 }
-                }
+            }
 
 
             @Override
